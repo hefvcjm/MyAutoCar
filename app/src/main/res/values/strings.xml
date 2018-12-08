@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">My AutoCar</string>
+    <string name="str_setting">设置</string>
+    <string name="str_connection_setting">连接设置</string>
+    <string name="str_setting_param">参数设置</string>
+    <string name="str_setting_mode">模式设置</string>
+    <string name="str_setting_area">区域设置</string>
+    <string name="str_setting_array">划分设置</string>
+
+    <string name="str_title">小车控制器</string>
+
+    <string name="test">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        这是一段用来测试的文字，目的在于测试textview显示效果，包括padding缩进，
+        以及滚动条等,这是一段用来测试的文字，目的在于测试textview显示效果，
+        包括padding缩进，以及滚动条等这是一段用来测试的文字，目的在于测试textview
+        显示效果，包括padding缩进，以及滚动条等</string>
+
+    <string name="str_mode_title">当前模式：</string>
+
+    <string name="str_info">已发送：</string>
+
+    <string name="str_info_init">[该区域显示已发送字节]</string>
+
+    <!-- 中文空两格 -->
+    <string name="space_indent">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+
+    <string name="str_info_uneditable">目前控制模式为实时遥控模式，将无法设置某些项目。</string>
+
+    <string name="str_info_step_dismatch">步进间距不匹配横向或纵向划分间隔。</string>
+
+    <string name="str_info_dismatch">横向与纵向划分间隔不一致。</string>
+
+    <!-- 蓝牙状态 -->
+    <string name="str_bt_state_title">连接状态:</string>
+
+    <string name="str_bt_state_default">未连接</string>
+
+    <string name="str_bt_state_default_connected">已连接</string>
+
+    <string name="str_bt_state_connecting">正在请求连接</string>
+
+    <string name="str_bt_state_monitoring">正在监听连接</string>
+
+    <string name="str_monitor_option">监听连接</string>
+
+    <string name="str_request_option">请求连接</string>
+
+    <string name="str_connection_selection">选择连接设备:</string>
+
+    <!-- main -->
+    <string name="str_warn">提醒!</string>
+    <string name="str_warn_message_bt_off">蓝牙未打开，请先打开蓝牙！</string>
+    <string name="str_warn_message_low_sdk">系统版本过低！</string>
+    <string name="str_check_ok">确定</string>
+    <string name="str_check_cancel">取消</string>
+
+</resources>

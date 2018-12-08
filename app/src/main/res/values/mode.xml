@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="value_mode">
+        <item>自动步进</item>
+        <item>实时遥控</item>
+        <!--<item>自动循迹</item>-->
+    </string-array>
+</resources>

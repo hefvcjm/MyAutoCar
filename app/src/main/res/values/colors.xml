@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 分隔符 -->
+    <color name="separator">#7FFFD4</color>
+    <!-- 字体颜色 -->
+    <color name="font_white">#ffffff</color>
+    <color name="font_blue">#00aaff</color>
+    <color name="font_gray">#696969</color>
+    <color name="font_light_gray">#BEBEBE</color>
+    <color name="font_orange">#FFA500</color>
+    <color name="font_red">#FF0000</color>
+    <color name="font_black">#000000</color>
+    <color name="sky_blue">#00BFFF</color>
+    <color name="bn_default">#00ffffff</color>
+    <color name="bn_pressed">#ffD3D3D3</color>
+
+    <color name="info">#363636</color>
+</resources>

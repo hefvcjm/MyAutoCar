@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_input"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="@color/font_black"
+            android:text="请输入..."/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textSize="17sp"
+        android:text="自定义步进间距(单位：m)："/>
+
+    <EditText
+        android:id="@+id/et_dialog_input_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="0.10~10.00"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:textColorHint="@color/font_gray"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="20dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_dialog_cancel"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sky_blue"
+            android:background="@drawable/selector_dialog_button"
+            android:text="取消"/>
+
+        <Button
+            android:id="@+id/bt_dialog_ok"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/sky_blue"
+            android:background="@drawable/selector_dialog_button"
+            android:text="确定"/>
+
+    </LinearLayout>
+
+</LinearLayout>

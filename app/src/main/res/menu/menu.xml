@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_connection_setting"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_bluetooth"
+        android:title="@string/str_connection_setting"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/item_connection_listen"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_monitor_connection"
+                android:title="@string/str_monitor_option"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/item_connection_request"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_request_connection"
+                android:title="@string/str_request_option"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item_setting_param"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_setting_param"
+        android:title="@string/str_setting_param"
+        app:showAsAction="never"/>
+
+</menu>
